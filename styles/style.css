@@ -152,4 +152,76 @@ main .title {
     margin: 0 auto 20px auto;
 }
 
+main .socials {
+    display: flex;
+    width: 600px;
+
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+main .socials .toolbar ul {
+    list-style: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding: 0;
+}
+
+main .socials .toolbar ul li{
+    display: inline;
+    text-align: left;
+    margin-right: 16px;
+    width: 100%;
+}
+
+main .socials .toolbar ul li a {
+    
+}
+
+main .socials .toolbar ul li .social-img {
+    box-sizing: content-box;
+    display: inline-block;
+
+    height: 15px;
+    width: 15px;
+    line-height: 17px;
+    padding: 5px;
+
+    vertical-align: middle;
+
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 100%;
+}
+
+main .socials .toolbar ul li .social-img:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+}
+
+main .socials .toolbar ul li .banner-btn {
+    height: 25px;
+    width: 16px;
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+
+main .socials .toolbar ul li .banner-img {
+    box-sizing: content-box;
+    display: inline-block;
+    line-height: 17px;
+
+    height: 25px;
+    width: 16px;
+
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+main .socials .toolbar ul li .banner-img:hover {
+    opacity: 0.5;
+}
+
 

@@ -34,7 +34,7 @@ header section {
 }
 
 header .menu-search {
-    display: flex;
+    display: inline-flex;
 }
 
 header .menu-search-btn{
@@ -50,4 +50,26 @@ header .menu-search-btn img{
     width: 16px;
     line-height: 11px;
 }
+
+header .section-label {
+    display: inline;
+    /* position: absolute;
+    left: 105px;
+    line-height: 19px;
+    top: 10px; */
+}
+
+header .section-label a {
+    font-family: nyt-franklin;
+    font-size: 14.25px;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+    text-decoration: none;
+    color: black;
+}
+
+header .section-label a:hover {
+    text-decoration: underline;
+}
+
 

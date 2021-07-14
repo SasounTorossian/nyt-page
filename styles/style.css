@@ -29,12 +29,22 @@ header {
 }
 
 header section {
+    width: 1605px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 4px 15px 2px 15px;
     margin: 0 auto;
 }
 
+
+/* HEADER: MENU-SEARCH-SECTION */
+header .menu-search-section {
+    display: flex
+}
+
 header .menu-search {
-    display: inline-flex;
+    display: flex;
 }
 
 header .menu-search-btn{
@@ -52,11 +62,7 @@ header .menu-search-btn img{
 }
 
 header .section-label {
-    display: inline;
-    /* position: absolute;
-    left: 105px;
-    line-height: 19px;
-    top: 10px; */
+
 }
 
 header .section-label a {
@@ -70,6 +76,45 @@ header .section-label a {
 
 header .section-label a:hover {
     text-decoration: underline;
+}
+
+/* HEADER: MASTHEAD */
+header .masthead {
+    display: inline-block;
+    /* width: 100%; */
+}
+
+header .masthead a {
+    margin: 6px auto 0 auto;
+}
+
+header .masthead a img {
+    height: 26px;
+    line-height: 16px;
+    width: 195px;
+}
+
+/* HEADER: SUB-LOG */
+header .sub-log {
+    display: flex;
+}
+
+header .sub-log a{
+    margin-right: 7px;
+}
+
+header .sub-log-btn {
+    background-color: rgb(86, 123, 149);
+    padding: 11px 12px 8px 12px;
+
+    font-family: nyt-franklin;
+    font-size: 11px;
+    letter-spacing: 0.55px;
+    line-height: 11px;
+
+    border: 1px solid rgb(50, 104, 145); 
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
 }
 
 

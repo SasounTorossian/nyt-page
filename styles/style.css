@@ -1,0 +1,14 @@
+@font-face {
+    font-family: nyt-cheltenham-italic;
+    src: url("../assets/fonts/cheltenham-italic-700.ttf");
+}
+
+@font-face {
+    font-family: nyt-franklin;
+    src: url("../assets/fonts/franklin-normal-700.ttf");
+}
+
+@font-face {
+    font-family: nyt-imperial;
+    src: url("../assets/fonts/imperial-normal-500.ttf");
+}

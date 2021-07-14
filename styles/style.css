@@ -12,3 +12,42 @@
     font-family: nyt-imperial;
     src: url("../assets/fonts/imperial-normal-500.ttf");
 }
+
+/* 
+    BODY/APP
+*/
+
+.app {
+    background-color: rgb(255, 255, 255);
+}
+
+/* 
+    HEADER
+*/
+header {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+header section {
+    padding: 4px 15px 2px 15px;
+    margin: 0 auto;
+}
+
+header .menu-search {
+    display: flex;
+}
+
+header .menu-search-btn{
+    padding: 8px 9px 9px 9px;
+    margin-right: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+header .menu-search-btn img{
+    display: block;
+    height: 16px;
+    width: 16px;
+    line-height: 11px;
+}
+

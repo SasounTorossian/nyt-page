@@ -96,17 +96,10 @@ header .section-label a:hover {
 /* HEADER: MASTHEAD */
 header .masthead {
     align-self: flex-end;
-    /* display:flex; */
-    /* align-items: flex-end; */
-    /* display: inline-block; */
-    /* width: 100%; */
 }
 
 header .masthead a {
 
-    /* align-self: flex-end; */
-    /* height: 26.5px; */
-    /* margin: 6px auto 0 auto; */
 }
 
 header .masthead a img {
@@ -137,6 +130,26 @@ header .sub-log-btn {
     border: 1px solid rgb(50, 104, 145); 
     border-radius: 3px;
     color: rgb(255, 255, 255);
+}
+
+/* 
+    MAIN
+*/
+
+main {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+main .title {
+    font-family: nyt-cheltenham-italic;
+    font-size: 40px;
+    line-height: 48px;
+    height: 96px;
+    width: 600px;
+    margin: 0 auto 20px auto;
 }
 
 

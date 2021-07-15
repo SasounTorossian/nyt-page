@@ -1,8 +1,22 @@
 @font-face {
+    font-family: nyt-cheltenham-normal;
+    src: url("../assets/fonts/cheltenham-normal-700.ttf");
+}
+
+@font-face {
     font-family: nyt-cheltenham-italic;
     src: url("../assets/fonts/cheltenham-italic-700.ttf");
 }
 
+@font-face {
+    font-family: nyt-cheltenham-small;
+    src: url("../assets/fonts/nyt-cheltenham-sh-400-normal.woff");
+}
+
+@font-face {
+    font-family: nyt-franklin-300;
+    src: url("../assets/fonts/franklin-normal-300.ttf");
+}
 
 @font-face {
     font-family: nyt-franklin-500;
@@ -407,7 +421,7 @@ main section {
 }
 
 main section .article-body {
-    width: 1200px;
+    /* width: 1200px; */
     margin: 0 auto 16px auto;
 }
 
@@ -423,4 +437,63 @@ main section p {
 
 main section p strong {
     font-weight: 700;
+}
+
+/* MAIN SECTION GRAPHIC */
+
+main section .graphic-container {
+    width: 945px;
+    margin: 0 auto 20px auto;
+}
+
+main section .graphic-container .graphic-title {
+    margin-bottom: 10px;
+}
+
+main section .graphic-container .graphic-title h1{
+    font-family: nyt-cheltenham-normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+
+main section .graphic-container .graphic-title p {
+    font-family: nyt-cheltenham-small;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(102, 102, 102);
+
+    width: 945px;
+    margin: 0 7px 0 0 ;
+}
+
+main section .graphic-container .relative-container {
+    position: relative;
+}
+
+main section .graphic-container img {
+    width: 945px;
+    height: 576px;
+}
+main section .graphic-container .relative-container .graphic-caption {
+    display: block;
+
+    height: 120;
+    width: 228px;
+    /* position: absolute; */
+}
+
+main section .graphic-container .relative-container p span{
+    font-family: nyt-franklin-700;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 0.55px;
+}
+
+main section .graphic-container .relative-container p {
+    display: block;
+    margin-bottom: 0;
+    font-family: nyt-franklin-300;
+    font-size: 14px;
+    line-height: 17px;
 }

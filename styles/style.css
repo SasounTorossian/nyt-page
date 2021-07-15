@@ -296,9 +296,10 @@ main .socials .toolbar ul li .comment-btn i span {
 
 /* MAIN ARTICLE */
 main article {
-    /* display: flex;
+    /* width: 1200px;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-self: center; */
 }
 
 /* MAIN ARTICLE FIGURE TITLE */
@@ -393,4 +394,33 @@ main article .byline-timestamp .wrapper ul li time {
     font-family: nyt-franklin-500;
     font-size: 13px;
     line-height: 16px;   
+}
+
+
+/* MAIN SECTION */
+main section {
+    font-family: nyt-imperial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(51, 51, 51);
+}
+
+main section .article-body {
+    width: 1200px;
+    margin: 0 auto 16px auto;
+}
+
+main section .article-body .article-chapter {
+    width: 600px;
+    margin-left: 300px;  
+}
+
+main section p {
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+main section p strong {
+    font-weight: 700;
 }

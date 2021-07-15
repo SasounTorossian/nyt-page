@@ -294,4 +294,48 @@ main .socials .toolbar ul li .comment-btn i span {
     line-height: 12px;
 }
 
+/* MAIN ARTICLE */
+main article {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+main article .fig-title {
+    width: 1200px;
+    margin: 25px auto 43px auto;
+}
+
+main article .fig-title img {
+    width: 1200px;
+    height: auto;
+}
+
+main article .fig-title figcaption {
+    height: 40px;
+    width: 900px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+main article .fig-title figcaption .caption {
+    font-family: nyt-imperial;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: rgb(102, 102, 102);
+
+    margin-right: 7px;
+
+}
+
+main article .fig-title figcaption .caption-credit {
+    font-family: nyt-imperial;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.13px;
+
+    color: rgb(136, 136, 136);
+}
+
 

@@ -422,17 +422,17 @@ main section {
 
 main section .article-body {
     /* width: 1200px; */
-    margin: 0 auto 16px auto;
 }
 
 main section .article-body .article-chapter {
     width: 600px;
-    margin-left: 300px;  
+    margin: 0 auto 16px auto;
+    /* margin-left: 300px;   */
 }
 
 main section p {
     width: 600px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 main section p strong {
@@ -440,7 +440,9 @@ main section p strong {
 }
 
 /* MAIN SECTION GRAPHIC */
-
+main section .graphic {
+    padding: 15px 0; /*TODO: Temporary */
+}
 main section .graphic-container {
     width: 945px;
     margin: 0 auto 20px auto;
@@ -467,7 +469,7 @@ main section .graphic-container .graphic-title p {
     margin: 0 7px 0 0 ;
 }
 
-main section .graphic-container .relative-container {
+main section .graphic-container .graphic-body {
     position: relative;
 }
 
@@ -475,7 +477,7 @@ main section .graphic-container img {
     width: 945px;
     height: 576px;
 }
-main section .graphic-container .relative-container .graphic-caption {
+main section .graphic-container .graphic-body .graphic-caption {
     display: block;
     margin: 0;
 
@@ -483,7 +485,7 @@ main section .graphic-container .relative-container .graphic-caption {
     width: 100px;
 }
 
-main section .graphic-container .relative-container p {
+main section .graphic-container .graphic-body p {
     width: 228px;
 
     margin-bottom: 0;
@@ -493,7 +495,7 @@ main section .graphic-container .relative-container p {
     line-height: 17px;
 }
 
-main section .graphic-container .relative-container p span{
+main section .graphic-container .graphic-body p span{
     font-family: nyt-franklin-700;
     font-weight: 700;
     font-size: 11px;
@@ -502,51 +504,77 @@ main section .graphic-container .relative-container p span{
     text-transform: uppercase;
 }
 
-main section .graphic-container .relative-container .caption-1 {
+main section .graphic-container .graphic-body .caption-1 {
     position: absolute;
     top: 143px;
     left: 0.0436%;
 }
 
-main section .graphic-container .relative-container .caption-2 {
+main section .graphic-container .graphic-body .caption-2 {
     position: absolute;
     top: 143px;
     left: 25.5619%;
 }
 
-main section .graphic-container .relative-container .caption-3 {
+main section .graphic-container .graphic-body .caption-3 {
     position: absolute;
     top: 143px;
     left: 51.0800%;
 }
 
-main section .graphic-container .relative-container .caption-4 {
+main section .graphic-container .graphic-body .caption-4 {
     position: absolute;
     top: 143px;
     left: 76.5982%;
 }
 
-main section .graphic-container .relative-container .caption-5 {
+main section .graphic-container .graphic-body .caption-5 {
     position: absolute;
     top: 423px;
     left: 0.0436%;
 }
 
-main section .graphic-container .relative-container .caption-6 {
+main section .graphic-container .graphic-body .caption-6 {
     position: absolute;
     top: 423px;
     left: 25.5619%;
 }
 
-main section .graphic-container .relative-container .caption-7 {
+main section .graphic-container .graphic-body .caption-7 {
     position: absolute;
     top: 423px;
     left: 51.0800%;
 }
 
-main section .graphic-container .relative-container .caption-8 {
+main section .graphic-container .graphic-body .caption-8 {
     position: absolute;
     top: 423px;
     left: 76.5982%;
+}
+
+main section .graphic-container .graphic-footer {
+    margin-top: 24px;
+}
+
+main section .graphic-container .graphic-footer .footer-wrapper {
+
+}
+
+main section .graphic-container .graphic-footer .footer-wrapper::before {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    content: "";
+    height: 1px;
+    width: 60px;
+    margin-bottom: 13px;
+}
+
+main section .graphic-container .graphic-footer .footer-wrapper p {
+    font-family: nyt-franklin-500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 14px;
+
+    color: rgb(51, 51, 51);
 }
 

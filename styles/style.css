@@ -3,8 +3,14 @@
     src: url("../assets/fonts/cheltenham-italic-700.ttf");
 }
 
+
 @font-face {
-    font-family: nyt-franklin;
+    font-family: nyt-franklin-500;
+    src: url("../assets/fonts/franklin-normal-500.ttf");
+}
+
+@font-face {
+    font-family: nyt-franklin-700;
     src: url("../assets/fonts/franklin-normal-700.ttf");
 }
 
@@ -81,7 +87,7 @@ header .section-label {
 }
 
 header .section-label a {
-    font-family: nyt-franklin;
+    font-family: nyt-franklin-700;
     font-size: 14.25px;
     letter-spacing: 0.7px;
     line-height: 19px;
@@ -122,7 +128,7 @@ header .sub-log-btn {
     background-color: rgb(86, 123, 149);
     padding: 11px 12px 8px 12px;
 
-    font-family: nyt-franklin;
+    font-family: nyt-franklin-700;
     font-size: 11px;
     letter-spacing: 0.55px;
     line-height: 11px;
@@ -162,15 +168,18 @@ main .socials {
 }
 
 main .socials .toolbar ul {
+    display: flex;
     list-style: none;
     list-style-position: outside;
     list-style-type: none;
     padding: 0;
+    margin-bottom: 5px;
 }
 
 main .socials .toolbar ul li{
     display: inline;
     text-align: left;
+    margin-left: 0;
     margin-right: 16px;
     width: 100%;
 }
@@ -222,6 +231,67 @@ main .socials .toolbar ul li .banner-img {
 
 main .socials .toolbar ul li .banner-img:hover {
     opacity: 0.5;
+}
+
+main .socials .toolbar ul li .comment-btn {
+    display: inline-flex;
+    align-content: flex-start;
+    position: relative;
+    
+    height: 25px;
+    min-width: 24px;
+    margin-left: 2px;
+    padding: 0 0 4px 0;
+
+    font-size: 12px;
+    line-height: 16px;
+    font-family: nyt-franklin-500;
+
+    border: none;
+    background-color: rgba(0, 0, 0, 0)
+} 
+
+main .socials .toolbar ul li .comment-btn i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 36px;
+    padding: 4px;
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 4px;
+}
+
+main .socials .toolbar ul li .comment-btn i::before{
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: -7px;
+    
+    content: "";
+    width: 0px;
+    
+    border-top: 6px solid rgb(102, 102, 102);
+    border-left: 8px solid rgb(102, 102, 102);
+}
+
+main .socials .toolbar ul li .comment-btn i::after{
+    display: block;
+    position: absolute;
+    left: 16px;
+    bottom: -6px;
+    
+    content: "";
+    width: 0;
+    
+    border-top: 6px solid white;
+    border-left: 6px solid white;
+}
+
+main .socials .toolbar ul li .comment-btn i span {
+    margin-top: 2px;
+    line-height: 12px;
 }
 
 

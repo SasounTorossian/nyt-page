@@ -301,6 +301,7 @@ main article {
     align-items: center; */
 }
 
+/* MAIN ARTICLE FIGURE TITLE */
 main article .fig-title {
     width: 1200px;
     margin: 25px auto 43px auto;
@@ -338,4 +339,58 @@ main article .fig-title figcaption .caption-credit {
     color: rgb(136, 136, 136);
 }
 
+/* MAIN ARTICLE AUTHOR TIMESTAMP */
+main article .byline-timestamp {
+    width: 600px;
+    margin: 0 auto 20px auto;
+}
 
+main article .byline-timestamp .wrapper {
+    margin: 30px 0;
+}
+
+main article .byline-timestamp .wrapper .author-container {
+    display: flex;
+    align-items: center;
+    /* width: 600px; */
+    margin-bottom: 15px;
+}
+
+
+main article .byline-timestamp .wrapper .author-container .author-name {
+    font-family: nyt-franklin-700;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgb(18, 18, 18);
+}
+
+main article .byline-timestamp .wrapper .author-container .author-name .author{
+    line-height: 20px;
+}
+
+main article .byline-timestamp .wrapper .author-container .author-name a {
+    text-decoration-color: rgb(204, 204, 204);
+    text-underline-offset: 1px;
+    color: rgb(18, 18, 18);
+}
+
+main article .byline-timestamp .wrapper .author-container .author-name a:hover {
+    text-decoration: none;
+}
+
+main article .byline-timestamp .wrapper ul {
+    display: flex;
+    align-items: center;
+
+}
+
+main article .byline-timestamp .wrapper ul li {
+    padding-right: 16px;
+}
+
+main article .byline-timestamp .wrapper ul li time {
+    font-family: nyt-franklin-500;
+    font-size: 13px;
+    line-height: 16px;   
+}

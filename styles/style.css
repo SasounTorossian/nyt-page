@@ -478,11 +478,6 @@ main section .graphic-container img {
     height: 576px;
 }
 main section .graphic-container .graphic-body .graphic-caption {
-    display: block;
-    margin: 0;
-
-    height: 120px;
-    width: 100px;
 }
 
 main section .graphic-container .graphic-body p {
@@ -554,14 +549,12 @@ main section .graphic-container .graphic-body .caption-8 {
 
 main section .graphic-container .graphic-footer {
     margin-top: 24px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-main section .graphic-container .graphic-footer .footer-wrapper {
-
-}
-
-main section .graphic-container .graphic-footer .footer-wrapper::before {
-    display: inline-block;
+main section .graphic-container .graphic-footer::before {
+    display: block;
     background-color: rgb(0, 0, 0);
     content: "";
     height: 1px;
@@ -569,12 +562,19 @@ main section .graphic-container .graphic-footer .footer-wrapper::before {
     margin-bottom: 13px;
 }
 
+main section .graphic-container .graphic-footer .footer-wrapper {
+    display: block;
+}
+
+
 main section .graphic-container .graphic-footer .footer-wrapper p {
     font-family: nyt-franklin-500;
     font-size: 14px;
     line-height: 18px;
-    margin-bottom: 14px;
-
     color: rgb(51, 51, 51);
+    
+    width: 100%;
+    padding: 0;
+    margin-bottom: 14px;
 }
 

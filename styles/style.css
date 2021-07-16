@@ -43,6 +43,9 @@
     BODY/APP
 */
 
+body {
+    padding-top: 43px;
+}
 
 .app {
     background-color: rgb(255, 255, 255);
@@ -52,8 +55,13 @@
     HEADER
 */
 header {
-    border-bottom: 1px solid rgb(226, 226, 226);
+    position: fixed;
+    top: 0;
     height: 43px;
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 header section {

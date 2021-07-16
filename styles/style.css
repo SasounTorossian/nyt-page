@@ -43,6 +43,7 @@
     BODY/APP
 */
 
+
 .app {
     background-color: rgb(255, 255, 255);
 }
@@ -56,24 +57,26 @@ header {
 }
 
 header section {
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    max-width: 1635px;
     height: 42px;
     padding: 4px 15px 2px 15px;
     margin: 0 auto;
+    position: relative;
+}
+
+header .header-wrapper {
+    width: 100%;
+    max-width: 1635px;
+    position: absolute;
+    left: 10px;
 }
 
 
-/* HEADER: MENU-SEARCH-SECTION */
-header .menu-search-section {
-    display: flex;
-    align-items: center;
-}
-
+/* HEADER: MENU-SEARCH */
 header .menu-search {
     display: flex;
+    position: absolute;
+    left: 10px;
 }
 
 header .menu-search-btn{
@@ -97,7 +100,9 @@ header .menu-search-btn img{
 }
 
 header .section-label {
-    margin-left: 20px;
+    position: absolute;
+    left: 105px;
+    top: 10px;
 }
 
 header .section-label a {
@@ -114,24 +119,28 @@ header .section-label a:hover {
 }
 
 /* HEADER: MASTHEAD */
-header .masthead {
-    align-self: flex-end;
+header section .masthead {
+    text-align: center;
+    vertical-align: baseline;
 }
 
-header .masthead a {
-
+header section .masthead a {
+    display: block;
+    width: 195px;
+    margin: 6px auto 0 auto;
 }
 
-header .masthead a img {
-    font-size: 16px;
+header section .masthead a img {
     height: 26.5px;
-    line-height: 16px;
     width: 195px;
 }
 
 /* HEADER: SUB-LOG */
 header .sub-log {
     display: flex;
+    position: absolute;
+    top: 4px;
+    right: 10px;
 }
 
 header .sub-log a{

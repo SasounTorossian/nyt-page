@@ -647,3 +647,13 @@ main section .embedded-youtube .frame-wrapper iframe {
 main section .embedded-youtube figcaption {
     /* height: 39px; */
 }
+
+/* MAIN SECTION FIG 3 */
+main section #fig-3 {
+    width: 720px;
+    margin: 43px auto;
+}
+
+main section #fig-3 img{
+    width: 720px;
+}

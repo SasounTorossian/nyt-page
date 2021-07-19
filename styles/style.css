@@ -774,3 +774,137 @@ main section .bottom-of-article .comments-socials .socials-container ul li img:h
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(204, 204, 204);
 }
+
+/* 
+    MAIN NAV
+*/
+
+nav .nav-wrapper {
+    box-sizing: content-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 3% 9px;
+}
+
+nav .nav-wrapper::before {
+    display: block;
+    height: 1px;  
+    content: "";
+    border-top: 2px solid rgb(226, 226, 226);
+
+}
+
+nav .nav-wrapper .nav-header {
+    display: flex;
+}
+
+nav .nav-wrapper .nav-header a img {
+    display: block;
+    height: 44px;
+    width: 184px;
+}
+
+nav .nav-wrapper .nav-header .home {
+    margin: 18px 0 0 auto;
+    line-height: 11px;
+}
+
+nav .nav-wrapper .nav-header .home a {
+    font-family: nyt-franklin-500;
+    font-size: 11px;
+    color: rgb(86, 123, 149);
+    text-decoration: none;
+}
+
+nav .nav-body {
+    display: flex;
+    margin-top: 10px;
+    min-width: 600px;
+}
+
+nav .nav-body section {
+    flex-grow: 1;
+}
+
+nav .nav-body section h3 {
+    height: 25px;
+    width: 150px;
+    
+    font-family: nyt-franklin-700;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgb(51, 51, 51);
+}
+
+nav .nav-body section ul {
+    line-height: 16px;
+}
+
+nav .nav-body section ul li a{
+    display: inline-block;
+    height: 23px;
+    width: 150px;
+
+    font-family: nyt-franklin-500;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav .nav-body section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* NAV SUBSCRIBE */
+nav .nav-body section.subscribe {
+    padding-left: 15px;
+    border-left: 1px solid rgb(226, 226, 226);
+}
+
+nav .nav-body section.subscribe .sub-1 li{
+    margin-bottom: 5px;
+}
+
+nav .nav-body section.subscribe .sub-1 li a {
+    /* box-sizing: content-box; */
+    display: inline-block;
+    height: 25px;
+    /* width: 100%; */
+
+    font-family: nyt-franklin-700;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+nav .nav-body section.subscribe .sub-1 li a img {
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+
+    vertical-align: middle;
+}
+
+nav .nav-body section.subscribe .sub-2 li a{
+    height: 23px;
+    width: 150px;
+    
+    font-family: nyt-franklin-500;
+    font-size: 11px;
+    line-height: 21px;
+}
+
+nav .nav-body section.subscribe .sub-3 {
+    margin-top: 2px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+nav .nav-body section.subscribe .sub-3 li a{
+    height: 23px;
+    width: 150px;
+    
+    font-family: nyt-franklin-500;
+    font-size: 11px;
+    line-height: 21px;
+}

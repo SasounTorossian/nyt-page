@@ -871,10 +871,11 @@ nav .nav-body section.subscribe .sub-1 li a {
     display: inline-block;
     height: 25px;
     /* width: 100%; */
-
+    
     font-family: nyt-franklin-700;
     font-size: 16px;
     line-height: 15px;
+    white-space: nowrap;
 }
 
 nav .nav-body section.subscribe .sub-1 li a img {

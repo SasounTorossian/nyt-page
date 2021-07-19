@@ -360,31 +360,31 @@ main article {
 }
 
 /* MAIN ARTICLE FIGURE TITLE */
-main article .fig-title {
+main article #fig-1 {
     width: 1200px;
     margin: 25px auto 43px auto;
 }
 
 @media screen and (max-width: 1440px) {
-    main article .fig-title {
+    main article #fig-1 {
         width: 945px;
         margin: 25px auto 43px auto;
     } 
 }
 
-main article .fig-title img {
+main article #fig-1 img {
     width: 100%;
     height: auto;
 }
 
-main article .fig-title figcaption {
+main article #fig-1 figcaption {
     height: 40px;
     width: 900px;
     margin-top: 10px;
     margin-right: 20px;
 }
 
-main article .fig-title figcaption .caption {
+main article #fig-1 figcaption .caption {
     font-family: nyt-imperial;
     font-size: 15px;
     line-height: 20px;
@@ -395,7 +395,7 @@ main article .fig-title figcaption .caption {
 
 }
 
-main article .fig-title figcaption .caption-credit {
+main article #fig-1 figcaption .caption-credit {
     font-family: nyt-imperial;
     font-size: 13px;
     line-height: 18px;
@@ -645,7 +645,7 @@ main section .embedded-youtube .frame-wrapper iframe {
 }
 
 main section .embedded-youtube figcaption {
-    /* height: 39px; */
+    line-height: 16px;
 }
 
 /* MAIN SECTION FIG 3 */

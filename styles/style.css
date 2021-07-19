@@ -676,16 +676,14 @@ main section .bottom-of-article .editor-notes {
 
 main section .bottom-of-article .editor-notes .text{
     width: 600px;
-    font-family: nyt_franklin-300;
-    font-weight: 400;
+    font-family: nyt-franklin-500;
     font-size: 12px;
     color: rgb(102, 102, 102);
 }
 
 main section .bottom-of-article .editor-notes .links {
     width: 600px;
-    font-family: nyt_franklin-300;
-    font-weight: 400;
+    font-family: nyt-franklin-500;
     font-size: 12px;
     line-height: 16px;
     color: rgb(102, 102, 102);
@@ -697,4 +695,82 @@ main section .bottom-of-article .editor-notes .links a {
 
 main section .bottom-of-article .editor-notes .links a:hover {
     text-decoration: none;
+}
+
+main section .bottom-of-article .comments-socials {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 24px auto 32px auto;
+}
+
+main section .bottom-of-article .comments-socials .comments-container {
+    width: 346px;
+    padding-right: 16px;
+    margin-right: 16px;
+}
+
+main section .bottom-of-article .comments-socials .comments-container button {
+    width: 330px;
+    padding: 5px 0;
+
+    font-family: nyt-franklin-500;
+    font-size: 13px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.65px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 123, 149);
+
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+
+    cursor: pointer;
+    transition: 0.6s ease background-color;
+}
+
+main section .bottom-of-article .comments-socials .comments-container button:hover {
+    background-color: rgb(50, 104, 145);
+}
+
+main section .bottom-of-article .comments-socials .socials-container ul {
+    display: flex;
+    list-style: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+main section .bottom-of-article .comments-socials .socials-container ul li{
+    display: inline;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 16px;
+    /* width: 100%; */
+}
+
+main section .bottom-of-article .comments-socials .socials-container ul li:last-child{
+    margin-right: 0;
+}
+
+main section .bottom-of-article .comments-socials .socials-container ul li img {
+    box-sizing: content-box;
+    display: inline-block;
+
+    height: 15px;
+    width: 15px;
+    line-height: 17px;
+    padding: 5px;
+
+    vertical-align: middle;
+
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 100%;
+}
+
+main section .bottom-of-article .comments-socials .socials-container ul li img:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
 }

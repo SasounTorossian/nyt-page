@@ -657,3 +657,44 @@ main section #fig-3 {
 main section #fig-3 img{
     width: 720px;
 }
+
+main section #fig-3 figcaption{
+    line-height: 16px;
+}
+
+/* MAIN SECTION BOTTOM OF ARTICLE */
+main section .bottom-of-article {
+    /* max-width: 600px; */
+}
+
+main section .bottom-of-article .editor-notes {
+    max-width: 600px;
+    height: 32px;
+    margin: 0 auto 12px auto;
+    line-height: 16px;
+}
+
+main section .bottom-of-article .editor-notes .text{
+    width: 600px;
+    font-family: nyt_franklin-300;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+
+main section .bottom-of-article .editor-notes .links {
+    width: 600px;
+    font-family: nyt_franklin-300;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(102, 102, 102);
+}
+
+main section .bottom-of-article .editor-notes .links a {
+    color: rgb(102, 102, 102);
+}
+
+main section .bottom-of-article .editor-notes .links a:hover {
+    text-decoration: none;
+}

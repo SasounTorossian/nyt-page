@@ -909,3 +909,56 @@ nav .nav-body section.subscribe .sub-3 li a{
     font-size: 11px;
     line-height: 21px;
 }
+
+/* 
+    FOOTER
+*/
+
+footer .footer-wrapper {
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 3% 9px;
+}
+
+footer .footer-wrapper nav {
+    padding-top: 9px;
+    text-align: center;
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+footer .footer-wrapper nav ul {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+footer .footer-wrapper nav ul.footer-header {
+    margin-bottom: 15px;
+}
+
+footer .footer-wrapper nav ul.footer-header li{
+    padding: 0;
+}
+
+
+footer .footer-wrapper nav ul.footer-body {
+    margin-bottom: 35px;
+}
+
+footer .footer-wrapper nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 20px;
+}
+
+footer .footer-wrapper nav ul li a{
+    padding: 10px 0;
+
+    font-family: nyt-franklin-500;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}

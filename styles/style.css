@@ -241,10 +241,6 @@ main .socials .toolbar ul li{
     width: 100%;
 }
 
-main .socials .toolbar ul li a {
-    
-}
-
 main .socials .toolbar ul li .social-img {
     box-sizing: content-box;
     display: inline-block;
@@ -484,10 +480,6 @@ main section {
     color: rgb(51, 51, 51);
 }
 
-main section .article-body {
-    /* width: 1200px; */
-}
-
 main section .article-body .article-chapter {
     width: 600px;
     margin: 0 auto 16px auto;
@@ -505,7 +497,7 @@ main section p strong {
 
 /* MAIN SECTION GRAPHIC */
 main section .graphic {
-    padding: 15px 0; /*TODO: Temporary */
+    padding: 15px 0;
 }
 main section .graphic-container {
     width: 945px;
@@ -540,8 +532,6 @@ main section .graphic-container .graphic-body {
 main section .graphic-container img {
     width: 945px;
     height: 576px;
-}
-main section .graphic-container .graphic-body .graphic-caption {
 }
 
 main section .graphic-container .graphic-body p {
@@ -677,10 +667,6 @@ main section #fig-3 figcaption{
 }
 
 /* MAIN SECTION BOTTOM OF ARTICLE */
-main section .bottom-of-article {
-    /* max-width: 600px; */
-}
-
 main section .bottom-of-article .editor-notes {
     max-width: 600px;
     height: 32px;
